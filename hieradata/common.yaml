@@ -8,13 +8,13 @@ hash_resources:
         package:
             binutils:
                 ensure: present
-             compat-libcap1:
+            compat-libcap1:
                  ensure: present
-             compat-libstdc++-33:
+            compat-libstdc++-33:
                  ensure: present
-             gcc:
+            gcc:
                  ensure: present
-             gcc-c++:
+            gcc-c++:
 
 
 
