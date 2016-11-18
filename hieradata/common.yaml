@@ -14,7 +14,7 @@ hash_resources:
                  ensure: present
             gcc:
                  ensure: present
-            gcc-c++:
-
+            ksh:
+                 ensure: present
 
 
