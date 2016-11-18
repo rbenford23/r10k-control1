@@ -4,6 +4,17 @@
 classes:
 
 hash_resources:
+    hash_resources::resources:
+        package:
+            binutils:
+                ensure: present
+             compat-libcap1:
+                 ensure: present
+             compat-libstdc++-33:
+                 ensure: present
+             gcc:
+                 ensure: present
+             gcc-c++:
 
 
     user:
