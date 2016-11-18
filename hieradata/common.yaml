@@ -1,3 +1,6 @@
+---
+# hieradata/common.yaml
+
 classes:
 
 hash_resources:
