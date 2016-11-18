@@ -17,13 +17,4 @@ hash_resources:
              gcc-c++:
 
 
-    user:
-       auction:
-            ensure: present
-            uid:    4400
-            gid:    4300
-            groups:
-              - services
-              - sshaccess
-            managehome: true
 
