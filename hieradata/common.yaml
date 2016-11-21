@@ -2,7 +2,7 @@
 # hieradata/common.yaml
 
 classes:
-    - hash_resources:
+    - hash_resources
 hash_resources::resources:
         package:
             ksh:
