@@ -7,5 +7,10 @@ hash_resources::resources:
         package:
             ksh:
               ensure: present
-
+      
+        user:
+           auction:
+                ensure: present
+                uid:    4400
+                gid:    4300
 
