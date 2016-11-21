@@ -2,11 +2,10 @@
 # hieradata/common.yaml
 
 classes:
-
-hash_resources:
-    hash_resources::resources:
+    - hash_resources:
+hash_resources::resources:
         package:
             ksh:
-                 ensure: present
+              ensure: present
 
 
